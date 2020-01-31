@@ -11,4 +11,4 @@ Versi ini merupakan versi pertama dan masih memungkinkan untuk mengupgrade ke ve
 
 # AUTHOR  
 ABDUL BASITH KAMALUDIN
-HACKTIV8 STUDENT
+# HACKTIV8 STUDENT
