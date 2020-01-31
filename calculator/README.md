@@ -10,5 +10,4 @@ Versi ini merupakan versi pertama dan masih memungkinkan untuk mengupgrade ke ve
 - Tekan [Enter] untuk mengkalkulasikan semua perhitungan
 
 # AUTHOR  
-ABDUL BASITH KAMALUDIN
-# HACKTIV8 STUDENT
+ABDUL BASITH KAMALUDIN HACKTIV8 STUDENT
