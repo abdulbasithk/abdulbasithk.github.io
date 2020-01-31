@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/officel/16/000000/calculator.png" type="image/icon type">
+</head>
+<body>
+    <header>
+        <h1>CALCULATOR v0.001</h1>
+    </header>
+    <div id="container">
+        
+        <form name="calculator">
+            <table>
+                <tr>
+                    <td colspan="6">
+                        <input type="text" name="display" id="display" disabled>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="operator" name="square" value="x²" onclick="calculator.display.value += '²'"></td>
+                    <td><input type="button" class="operator" name="squareroot" value="√" onclick="calculator.display.value += '√'"></td>
+                    <td><input type="button" class="operator" name="cuberoot" value="∛" onclick="calculator.display.value += '∛'"></td>
+                    <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
+                    <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
+                    <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
+                    <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="four" value="4" onclick="calculator.display.value += '4'"></td>
+                    <td><input type="button" name="five" value="5" onclick="calculator.display.value += '5'"></td>
+                    <td><input type="button" name="six" value="6" onclick="calculator.display.value += '6'"></td>
+                    <td><input type="button" class="operator" name="times" value="*" onclick="calculator.display.value += '*'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+                    <td><input type="button" name="two" value="2" onclick="calculator.display.value += '2'"></td>
+                    <td><input type="button" name="three" value="3" onclick="calculator.display.value += '3'"></td>
+                    <td><input type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="clear" name="clear" value="c" onclick="clearDisplay()"></td>
+                    <td><input type="button" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
+                    <td><input type="button" name="dot" value="." onclick="calculator.display.value += '.'"></td>
+                    <td><input type="button" name="doit" value="=" onclick="calculate()"></td>
+                    
+                </tr>
+            </table>
+        </form>
+            <div id='hiscontainer'>
+                <div id='historytitle'>
+                    <h2>History</h2>
+                </div>
+                <div id='history'>
+                    
+                </div>
+                <div>
+                    <button id='cleaHistory' onclick="clearHistory()">Clear</button>
+                </div>
+            </div>
+            
+    </div>
+    <script src="index.js"></script>
+    <footer>Hacktiv8&copy; Student </footer>
+</body>
+</html>
